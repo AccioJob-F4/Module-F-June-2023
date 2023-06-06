@@ -1,4 +1,3 @@
-# Interview Prep
 
 $$
 {\Huge \color{dodgerblue}-- INTERVIEW -- PREP --}
