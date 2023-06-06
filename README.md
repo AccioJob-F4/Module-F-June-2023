@@ -18,7 +18,7 @@ Session 01 :
 
 ## HTML & CSS
 
-Session 01 : 
+Session 01 :
 
 # Important Links
 
@@ -51,5 +51,3 @@ Prop Drilling : [Article](https://kentcdodds.com/blog/prop-drilling)
 Redux : [Article](https://blog.logrocket.com/understanding-redux-tutorial-examples/)
 
 Firebase : [GFG Link](https://www.geeksforgeeks.org/how-to-use-firestore-database-in-reactjs/)
-
-# Assignment Solutions Placement Readiness
