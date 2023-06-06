@@ -18,9 +18,7 @@ Session 01 :
 
 ## HTML & CSS
 
-Session 01 : [Google Doc](https://docs.google.com/document/d/10UxP9uRi3mIOt_m9-JSh5U9OyrinObpISPT2t6dYd74/edit?usp=sharing)
-
-Session 02 : [Google Doc](https://docs.google.com/document/d/1Gt9c5DVAx52MzeAfEgMt49nq6eq111pMFrtz_NfXgis/edit?usp=sharing)
+Session 01 : 
 
 # Important Links
 
