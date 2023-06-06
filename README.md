@@ -1,6 +1,6 @@
 
 $$
-{\Huge \color{dodgerblue}-- INTERVIEW -- PREP --}
+{\Huge \color{orange}-- INTERVIEW -- PREP --}
 $$
 
 <hr/>
@@ -12,7 +12,7 @@ React/Redux Interview Prep : [Github](https://github.com/sudheerj/reactjs-interv
 Redux Interview Questions : [Link](https://www.interviewbit.com/redux-interview-questions/#redux-mcq-questions)
 
 $$
-{\Huge \color{dodgerblue}-- IMPORTANT -- LINKS --}
+{\Huge \color{orange}-- IMPORTANT -- LINKS --}
 $$
 
 <hr/>
