@@ -147,3 +147,9 @@ console.log(
     person.age
   } years old. And I've been working at ${person.org} for the last 2 years.`
 );
+
+// Take home assignment : How does Javascript handles this Infinitely nested object ?
+
+const a = { b: 1, c: 2 };
+a.d = a;
+console.log(a);
