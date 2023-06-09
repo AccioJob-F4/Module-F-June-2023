@@ -1,0 +1,54 @@
+<!-- DOM : Document Object Model -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="parent">
+      <p class="firstPara">First para</p>
+      <p class="secondPara">Second para</p>
+      <p id="remove">Third para</p>
+      <img
+        id="img"
+        src="https://hips.hearstapps.com/hmg-prod/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=0.752xw:1.00xh;0.175xw,0&resize=1200:*"
+      />
+    </div>
+
+    <script>
+      const parentElement = document.getElementById("parent");
+      //   console.log(parentElement.textContent);
+      //   console.log(parentElement.innerHTML);
+      //   console.log(parentElement.innerText);
+
+      // console.log(document.getElementsByClassName("firstPara"));
+      //   console.log(document.getElementsByTagName("p"));
+
+      //   console.log(document.querySelector("p"));
+      //   console.log(document.querySelector(".secondPara"));
+      //   console.log(document.querySelector("#parent"));
+      //   console.log(document.querySelector("#dummy"));
+
+      const childNodes = parentElement.childNodes;
+      //   console.log(childNodes);
+
+      const firstPara = document.getElementsByClassName("firstPara")[0];
+      firstPara.textContent = "Dummy content here now";
+
+      const img = document.getElementById("img");
+      img.src =
+        "https://hips.hearstapps.com/hmg-prod/images/wolf-dog-breeds-siberian-husky-1570411330.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=1200:*";
+
+      const newParaElement = document.createElement("p");
+      newParaElement.textContent = "This is a new Paragraph Tag.";
+
+      parentElement.appendChild(newParaElement);
+
+      const elementToBeRemoved = document.getElementById("remove");
+      elementToBeRemoved.remove();
+    </script>
+  </body>
+</html>
