@@ -1,4 +1,3 @@
-
 $$
 {\Huge \color{orange}-- INTERVIEW -- PREP --}
 $$
@@ -16,6 +15,9 @@ $$
 $$
 
 <hr/>
+
+**Notes Drive Link : [https://drive.google.com/drive/folders/1vwIFrWl36GJKIt6K1XWpGt9TYO2wdpuu?usp=sharing](https://drive.google.com/drive/folders/1vwIFrWl36GJKIt6K1XWpGt9TYO2wdpuu?usp=sharing)
+**
 
 **_20 React Projects built from scratch for your practice purpose : [Youtube playlist](https://www.youtube.com/playlist?list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP)_**
 
