@@ -4,6 +4,8 @@ $$
 
 <hr/>
 
+Notes Drive Link : [Link](https://drive.google.com/drive/folders/1vwIFrWl36GJKIt6K1XWpGt9TYO2wdpuu?usp=sharing)
+
 Javascript Interview Questions : [Github](https://github.com/sudheerj/javascript-interview-questions)
 
 React/Redux Interview Prep : [Github](https://github.com/sudheerj/reactjs-interview-questions)
@@ -16,10 +18,7 @@ $$
 
 <hr/>
 
-**Notes Drive Link : [https://drive.google.com/drive/folders/1vwIFrWl36GJKIt6K1XWpGt9TYO2wdpuu?usp=sharing](https://drive.google.com/drive/folders/1vwIFrWl36GJKIt6K1XWpGt9TYO2wdpuu?usp=sharing)
-**
-
-**_20 React Projects built from scratch for your practice purpose : [Youtube playlist](https://www.youtube.com/playlist?list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP)_**
+20 React Projects built from scratch for your practice purpose : [Youtube playlist](https://www.youtube.com/playlist?list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP)
 
 React Youtube Tutorials : [Link](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3)
 
