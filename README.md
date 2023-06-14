@@ -13,7 +13,7 @@ React/Redux Interview Prep : [Github](https://github.com/sudheerj/reactjs-interv
 Redux Interview Questions : [Link](https://www.interviewbit.com/redux-interview-questions/#redux-mcq-questions)
 
 $$
-{\Huge \color{orange}-- VSCODE Extension --}
+{\Huge \color{orange}-- VSCode -- Extension --}
 $$
 
 <hr/>
