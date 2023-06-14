@@ -83,6 +83,7 @@ $$
 $$
 
 <hr/>
+
 Event Loop : [Article](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif) | [Visualization](http://latentflip.com/loupe/)
 
 20 React Projects built from scratch for your practice purpose : [Youtube playlist](https://www.youtube.com/playlist?list=PL-J2q3Ga50oMQa1JdSJxYoZELwOJAXExP)
