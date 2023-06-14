@@ -1,0 +1,25 @@
+.calculator {
+}
+
+.display > input {
+  background-color: black;
+  outline: none;
+  height: 50px;
+  width: 398px;
+  color: white;
+  border: none;
+}
+
+.buttons {
+  width: 400px;
+}
+
+.buttons_row {
+  display: flex;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  border-radius: none;
+}
