@@ -117,37 +117,57 @@
 
 // export default App;
 
-import React from "react";
+// import React from "react";
 
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-import Product from "./Product";
-import Greeting from "./Greeting";
+// import Product from "./Product";
+// import Greeting from "./Greeting";
+
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <nav>
+//         <ul>
+//           <li>
+//             <Link to="/">Home</Link>
+//           </li>
+//           <li>
+//             <Link to="/product">Product</Link>
+//           </li>
+//           <li>
+//             <Link to="/greeting">Greeting</Link>
+//             {/* <a href="/greeting">Greeting</a> */}
+//           </li>
+//         </ul>
+//       </nav>
+
+//       <Routes>
+//         <Route path="/product" element={<Product />} />
+//         <Route path="/greeting" element={<Greeting />} />
+//       </Routes>
+//     </BrowserRouter>
+//   );
+// };
+
+// export default App;
+
+import React, { useEffect } from "react";
+import axios from "axios";
 
 const App = () => {
-  return (
-    <BrowserRouter>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/product">Product</Link>
-          </li>
-          <li>
-            <Link to="/greeting">Greeting</Link>
-            {/* <a href="/greeting">Greeting</a> */}
-          </li>
-        </ul>
-      </nav>
+  useEffect(() => {
+    axios
+      .get("https://randomuser.me/api/")
+      .then((response) => {
+        console.log({ response });
+      })
+      .catch((error) => {
+        console.log({ error });
+      });
+  }, []);
 
-      <Routes>
-        <Route path="/product" element={<Product />} />
-        <Route path="/greeting" element={<Greeting />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <div>App</div>;
 };
 
 export default App;
