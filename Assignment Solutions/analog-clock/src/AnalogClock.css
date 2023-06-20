@@ -1,0 +1,58 @@
+.clock {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 7px solid #000;
+  background-color: #fff;
+
+  background: #eee;
+  box-shadow: 0 16px 16px -8px black;
+}
+
+.hand {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  transform-origin: bottom center;
+}
+
+.hour-hand {
+  width: 4px;
+  height: 60px;
+  top: 43%;
+  background-color: green;
+}
+
+.minute-hand {
+  width: 3px;
+  height: 110px;
+  top: 30%;
+  background-color: #000;
+}
+
+.second-hand {
+  width: 2px;
+  height: 140px;
+  top: 22%;
+  left: 45%;
+  background-color: #f00;
+}
+
+.digital-clock {
+  font-size: 100px;
+  margin-top: 100px;
+  margin-left: 45px;
+}
+
+.digital-hour {
+  color: #f00;
+}
+
+.digital-minutes {
+  color: #000;
+}
+
+.digital-seconds {
+  color: green;
+}
