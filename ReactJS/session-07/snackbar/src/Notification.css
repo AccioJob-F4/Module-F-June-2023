@@ -1,0 +1,20 @@
+.notification-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  z-index: 9999;
+}
+
+.notification-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-content span {
+  margin-right: 8px;
+}
