@@ -1,0 +1,51 @@
+form {
+  border: 1px solid black;
+  width: 900px;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 50px #89cff0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: wheat;
+}
+
+input,
+textarea {
+  width: calc(100% - 40px);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: dodgerblue;
+  box-shadow: 0 8px 8px -4px lightblue;
+  border-radius: 3px;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.35px;
+}
+
+textarea {
+  max-width: calc(100% - 40px);
+  height: 200px;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #5f9ea0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 3px;
+  font-weight: 800;
+  letter-spacing: 2.35px;
+  transition: background-color 0.5s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
