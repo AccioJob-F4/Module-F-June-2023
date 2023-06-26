@@ -1,0 +1,50 @@
+.card-box {
+  margin: 20px;
+  display: grid;
+  place-items: center;
+  width: max-content;
+  border-radius: 3px;
+  background: #eee;
+  box-shadow: 0 8px 8px -4px dodgerblue;
+  padding: 7px;
+  width: 300px;
+}
+
+.card-body {
+  padding: 13px;
+  display: grid;
+  place-items: center;
+}
+
+.card-img {
+  width: max-content;
+}
+
+.card-img > img {
+  object-fit: contain;
+  width: 250px;
+}
+
+.card-item-name {
+  padding: 20px 0;
+  width: calc(300px - 22px);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.card-item-price {
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: green;
+}
+
+.product-details-btn {
+  padding: 7px 11px;
+  outline: none;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: white;
+  border-radius: 3px;
+  margin-top: 11px;
+}
